@@ -13,7 +13,7 @@ The website displays the salon online, where you can book an appointment, check 
 - Then install the project dependencies with:\
   pip install -r requirements.txt
 
-- Edit EMAIL configurations also in barbing/settings.py
+- Edit EMAIL configurations in barbing/settings.py
 
 - Now you can run the project with this command:\
   python manage.py runserver
