@@ -5,6 +5,9 @@ The website displays the salon online, where you can book an appointment, check 
 # Running this project
 - To get this project up and running you should start by having Python installed on your computer. 
 
+- Activate the virtual environment with:\
+  venv\Scripts\activate
+
 - Clone or download this repository and open it in your editor of choice. 
 
 - Then install the project dependencies with:\
