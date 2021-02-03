@@ -24,7 +24,7 @@ SECRET_KEY = 'xxxxxxxxxxx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'teespecialhaircuts.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'teespecialhaircut.herokuapp.com']
 
 # Application definition
 
