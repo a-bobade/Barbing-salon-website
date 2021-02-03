@@ -19,12 +19,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'j)jkqho2p4t3bs@xfxoaskib+x-&1=#&m8i*@!&i44!drov*l+'
+SECRET_KEY = 'xxxxxxxxxxx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1']
 
 # Application definition
 
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whiteniose.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -118,7 +120,7 @@ STATICFILES_DIRS = [
 ]
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'xxxxx@gmail.com'
-EMAIL_HOST_PASSWORD = 'xxxxx'
+EMAIL_HOST_USER = 'emmaseun95@gmail.com'
+EMAIL_HOST_PASSWORD = 'acmilanfc'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
