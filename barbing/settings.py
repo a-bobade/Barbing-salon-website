@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
 from pathlib import Path
-import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 
@@ -26,7 +25,7 @@ SECRET_KEY = 'xxxxxxxxxxx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'teespecialhaircut.herokuapp.com']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -119,13 +118,11 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'emmaseun95@gmail.com'
-EMAIL_HOST_PASSWORD = 'acmilanfc'
+EMAIL_HOST_USER = 'XXXXXX@gmail.com'
+EMAIL_HOST_PASSWORD = 'XXXXXXX'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 
 
-django_heroku.settings(locals())
