@@ -1,1 +1,0 @@
-web: gunicorn barbing.wsgi
