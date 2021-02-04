@@ -1,1 +1,1 @@
-web: gunicorn barbing.wsgi --log-file -
+web: gunicorn barbing.wsgi
