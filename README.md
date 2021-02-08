@@ -1,5 +1,7 @@
 # Django--barbing-salon-website
 This is a simple, one page barbing salon website built with Django
+# Project website 
+https://teespecialhaircut.herokuapp.com
 # Project summary
 The website displays the salon online, where you can book an appointment, check out the location and opening time.
 # Running this project
